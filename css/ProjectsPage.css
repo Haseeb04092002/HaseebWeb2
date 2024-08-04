@@ -1,0 +1,81 @@
+.MediaSection video{
+	max-width: 620px;
+	min-width: 620px;
+	max-height: 450px;
+	min-height: 450px;
+}
+.VideoSideText{
+	display: flex;
+}
+
+.SideText{
+	width: 50%;
+	margin-left: 48px;
+}
+.SideText h3{
+	font-size: 25px;
+}
+.ProjectImage{
+	border: 1px solid black;
+	margin-bottom: 30px;
+	width: 320px;
+	height: 320px;
+}
+@media (max-width:768px){
+	.VideoSideText{
+		display: block;
+	}
+	.VideoSideText video{
+		padding: 25px;
+	}
+	.SideText{
+		width: 90%;
+		margin-left: 30px;
+		margin-top: 20px;
+	}
+	.SideText h3{
+		font-size: 26px;
+	}
+	.ProjectImage{
+		width: 480px;
+		height: 480px;
+	}
+}
+/*--------------------------------------------------------------
+# Global Section Titles
+--------------------------------------------------------------*/
+.section-title {
+	text-align: center;
+	padding-bottom: 60px;
+	position: relative;
+}
+
+.section-title h2 {
+	font-size: 22px;
+	letter-spacing: 1px;
+	font-weight: 700;
+	padding: 11px 23px;
+	margin: 0;
+	background: #0e1d34;
+	color: white;
+	display: inline-block;
+	text-transform: uppercase;
+	border-radius: 50px;
+	font-family: var(--default-font);
+}
+
+.section-title p {
+	color: var(--heading-color);
+	margin: 10px 0 0 0;
+	font-size: 32px;
+	font-weight: 500;
+	font-family: var(--heading-font);
+}
+@media (max-width:768px){
+	.section-title p{
+		font-size: 25px;
+	}
+}
+.section-title p .description-title {
+	color: var(--accent-color);
+}
