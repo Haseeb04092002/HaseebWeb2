@@ -30,76 +30,77 @@
 		<?php
 			include 'includes/header.php';
 		?>
-	</head>
-
-	<body>
+</head>
+<body>
 
 		<section id="portfolio" class="portfolio section-bg">
 			<div class="section-title">
-				<h2 class="text-uppercase">Myers College</h2>
-				<p>Have a look at my portfolio and hire me if you are inspired.</p>
+				<h2>MYERS COLLEGE OFFICIAL WEBSITE</h2>
 			</div>
 
 			<!--  -->
 			<div class="d-flex container mx-auto justify-content-center">
 				<div class="MediaSection mx-auto">
-					<div class="d-flex">
-					<video controls>
-						<source src="media/vidoes/v1.mp4" type="video/mp4">
-						<source src="mov_bbb.ogg" type="video/ogg">
-					</video>
-					<div class="ms-5 w-50 SideText">
-						<h3>Introduction</h3>
-						<p>Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque</p>
-						<div class="d-flex my-2 align-items-end">
-							<h3>Category</h3>
-							<h5 class="ms-3">Autem ipsum nam</h5>
-						</div>
-						<div class="d-flex my-2 align-items-end">
-							<h3>Skills</h3>
-							<h5 class="ms-3">Autem ipsum nam Autem ipsum nam</h5>
-						</div>
-						<div class="d-flex my-2 align-items-end">
-							<h3>Status</h3>
-							<h5 class="ms-3">nam Autem ipsum nam</h5>
-						</div>
-						<div class="d-flex my-2 align-items-end">
-							<h3>Project URL</h3>
-							<h5 class="ms-3">nam Autem ipsum nam</h5>
-						</div>
-					</div>
-					</div>
-					<div class="row mt-4">
-						<div class="col-4">
-							<div class="text-center">
-								<img width="320" height="320" src="media/images/Myers-College-Website.png" class="rounded" alt="...">
+					<div class="VideoSideText mb-5">
+						<video controls>
+							<source src="media/vidoes/myers01.mp4" type="video/mp4">
+							<source src="mov_bbb.ogg" type="video/ogg">
+						</video>
+						<div class="SideText">
+							<h3>Introduction</h3>
+							<p>Myer's College is a university-preparatory school located at Chakwal, Punjab, in Pakistan. Myer's College was founded in 1999, and the first Myer's College student appeared in Cambridge International Examinations in 2005 and made the headlines with securing straight A's in all O Level subjects. Ever since, the college students have not looked back.</p>
+							<div class="d-flex my-2">
+								<h3>Category</h3>
+								<p class="ms-3 fs-5">Official Website</p>
 							</div>
-						</div>
-						<div class="col-4">
-							<div class="text-center">
-								<img width="320" height="320" src="media/images/Myers-College-Website.png" class="rounded" alt="...">
+							<div class="d-flex my-2">
+								<h3>Skills</h3>
+								<p class="ms-3 fs-5">HTML CSS Javascript PHP SQL</p>
 							</div>
-						</div>
-						<div class="col-4">
-							<div class="text-center">
-								<img width="320" height="320" src="media/images/Myers-College-Website.png" class="rounded" alt="...">
+							<div class="d-flex my-2">
+								<h3>Status</h3>
+								<p class="ms-3 fs-5">Live</p>
+							</div>
+							<div class="d-flex my-2">
+								<h3>Project URL</h3>
+								<a href="https://myers.edu.pk" target="_blank" class="ms-3 fs-5 text-dark">myers.edu.pk</a>
 							</div>
 						</div>
 					</div>
-					<div class="row mt-4">
-						<div class="col-4">
+					<div class="section-title">
+						<h2>SCREEN SHOTS</h2>
+					</div>
+					<div class="row">
+						<div class="col-lg-4">
 							<div class="text-center">
-								<img width="320" height="320" src="media/images/Myers-College-Website.png" class="rounded" alt="...">
+								<img src="media/images/myers01.png" class="rounded ProjectImage" alt="...">
 							</div>
 						</div>
-						<div class="col-4">
+						<div class="col-lg-4">
 							<div class="text-center">
-								<img width="320" height="320" src="media/images/Myers-College-Website.png" class="rounded" alt="...">
+								<img src="media/images/myers02.png" class="rounded ProjectImage" alt="...">
 							</div>
 						</div>
-						<div class="col-4">
+						<div class="col-lg-4">
 							<div class="text-center">
-								<img width="320" height="320" src="media/images/Myers-College-Website.png" class="rounded" alt="...">
+								<img src="media/images/myers03.png" class="rounded ProjectImage" alt="...">
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-4">
+							<div class="text-center">
+								<img src="media/images/myers04.png" class="rounded ProjectImage" alt="...">
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="text-center">
+								<img src="media/images/myers05.png" class="rounded ProjectImage" alt="...">
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<div class="text-center">
+								<img src="media/images/myers06.png" class="rounded ProjectImage" alt="...">
 							</div>
 						</div>
 					</div>
@@ -121,5 +122,5 @@
 				<?php
 					include 'includes/js_links.php';
 				?>
-			</body>
-			</html>
+</body>
+</html>
